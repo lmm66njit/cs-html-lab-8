@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+        <title>personal portfolio</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1>Lea Mecheril</h1>
+        <h3>College: NJIT<br>
+            UCID: lmm66<br>
+            Major: Architecture</h3>
+            <p>Lea Mecheril is a first year student at New Jersey Institute of Technology, enrolled in their five year Bachelor of Architecture program. She was born in Atlanta, Georgia, but grew up on Long Island, New York. She loves spending time with her friends, 2 older brothers, and her dog. When she's not with her loved ones, Lea enjoys dancing, cooking, going to new places, and generally being on her phone too much.</p>
+    <img src="C:\Users\leama\Downloads\IMG_3860.jpg" width="270"><br>
+    <br><a href="https://www.njit.edu/">Go to NJIT website</a>
+    <br>
+    <div>
+        <table class="table table-bordered table-striped">
+            <tr> 
+                <th>Education</th>
+                <th>Experience</th>
+                <th>Skills</th>
+            </tr>
+            <tr>
+                <td>High School Diploma</td>
+                <td>AP Classes</td>
+                <td>Drawing</td>
+            </tr>
+            <tr>
+                <td>B. Arch In Progress</td>
+                <td>Community Service Clubs</td>
+                <td>Communication</td>
+            </tr>
+        </table>
+    </div>
+    <div>
+        <h2>FORM</h2>
+        <form>
+            <label for="uname">Username:</label><br>
+            <input type="text" id="uname" name="uname"><br>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <br>
+            <label for="math1">Math</label><br>
+            <input type="checkbox" name="math1" id="math1"><br>
+            <label for="arch1">Architecture</label><br>
+            <input type="checkbox" name="arch1" id="arch1"><br>
+            <label for="cs1">Computer Science</label><br>
+            <input type="checkbox" name="cs1" id="cs1"><br>
+            <br>
+            <label for="math2"></label>Math<br>
+            <input type="radio" name="math2" id="math2"><br>
+            <label for="arch2">Architecture</label><br>
+            <input type="radio" name="arch2" id="arch2"><br>
+            <label for="cs2">Computer Science</label><br>
+            <input type="radio" name="cs2" id="cs2"><br>
+            <br>
+            <input type="submit"><br>
+    </form>
+</div>
+    <div>
+        <h2> My semester classes</h2>
+        <ul>
+            <li>ARCH 110: Tools and Techniques 1</li>
+            <li>CS 104: Computer Programming and Graphics Problems</li>
+            <li>ENG 102: Intro to Research Writing</li>
+            <li>MATH 105: Elementary Probability and Statistics</li>
+            <li>ARCH 195: Architecture Studio 1</li>
+    </ul>
+</div>
+<div>
+    <img src="C:\Users\leama\Downloads\njit for cs lab.jpg" alt="img1" class="img1" width="150px">
+    <img src="C:\Users\leama\Downloads\li for cs lab.jpg" alt="img2" class="img2" height="100px">
+    <img src="C:\Users\leama\Downloads\pobjfk for cs lab.jpg" alt="img3" class="img3" width="150px">
+</div>
+<br>
+<br>
+<p class="p2">Architecture is a great outlet for all things creativity
+    and design that mixes math and science as well. It's not
+    just structures, but also the way they interact with
+    the landscapes around them, the way people can use them
+    everyday and appreciate a new detail every time, and
+    the endless styles and history behind it all.</p>
+    <br>
+<ul>
+    <li><a href="https://www.njit.edu/studentlife/" class="item1"><item-1>Student Life</item-1></a></li>
+    <li><a href="https://www.njit.edu/life/health-safety" class="item2"><item-2>Health and Safety</item-2></a></li>
+    <li><a href="https://www.njit.edu/life/housing-dining" class="item3"><item-3>Housing and Dining</item-3></a></li>
+</ul>
+<br>
+<div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      NJIT Important Links for Residents
+    </button>
+    <ul class="dropdown-menu">
+         <li><a class="dropdown-item" href="https://www.njit.edu/studentlife/">Student Life</a></li>
+         <li><a class="dropdown-item" href="https://www.njit.edu/life/health-safety">Health and Safety</a></li>
+         <li><a class="dropdown-item" href="https://www.njit.edu/life/housing-dining">Housing and Dining</a></li>
+    </ul>
+  </div>
+  <br>
+  <div>
+    <button type="button" class="btn btn-primary" data-bs-toggle="collapse" data-bs-target="#demo">Click me!</button>
+ <div id="demo" class="collapse">
+   Thanks for visiting this website.
+ </div>
+</div>
+<br><br>
+
+<button id="changeTextBtn"></button>
+<p id="displayText">
+    Hello, JavaScript World!</p>
+
+<script>
+    let num1=10; let num2=5;
+    let x = num1+num2;
+    let y = num1-num2;
+    let z = num1*num2;
+    console.log(num1+num2);
+    console.log(num1-num2);
+    console.log(num1*num2);
+
+   var score = 85
+   function calculateGrade(score) {
+    if (score>=90) {console.log('A')}
+    else if (score>=80 && score<=89 ) {console.log('B')}
+    else if (score>=70 && score<=79 ) {console.log('C')}
+    else if (score>=60 && score<=69 ) {console.log('D')}
+    else if (score<60 ) {console.log('F')}
+   }
+   
+   calculateGrade(score)
+
+document.getElementById("changeTextBtn").addEventListener("click",displayText)
+
+function validateForm() {
+    let userValue = document.forms["myForm"]["fname"].value;
+    if (userValue == "") {
+      alert("Username must be filled out");
+      return false;
+    }
+    let passValue = document.forms["myForm"]["pw"].value;
+    if (passValue == "") {
+      alert("Password must be filled out");
+      return false;
+    }
+    else {
+        setTimeout (successAlert, 3000);
+    }
+}
+function successAlert(){
+    alert('Successful Input');
+}
+</script>  
+  
+<form name="myForm" onsubmit="return validateForm()" method="post">
+    Username: <input type="text" name="fname"> <br><br>
+    Password: <input type="text" name="pw"> <br><br>
+    <button type="button" onclick="validateForm()" >Submit</button>
+</form>
+
+</body>
+</html>
